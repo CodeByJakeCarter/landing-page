@@ -1,37 +1,139 @@
+@font-face {
+  font-family: "RobotoCustom";
+  src: url("./Fonts/RobotoMono-VariableFont_wght.ttf");
+}
+
 body {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-family: "RobotoCustom";
 }
 
-.header,
-.footer {
-    background-color: #1f2937;
+.layer1 {
+  display: flex;
+  flex-direction: column;
+  background-color: #1f2937;
+  font-family: "RobotoCustom";
 }
 
-.logo {
-    color: #f9faf8;
-    font-size: 24px;
+.layer1Header {
+  display: flex;
+  justify-content: space-around;
 }
 
-.links,
-.main-para {
-    font-size: 18px;
-    color: #e5e7eb;
+h1 {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
 }
 
-.main-title {
-    font-size: 48px;
-    font-weight: 900;
-    color: #f9faf8;
+button {
+  background-color: #3882f6;
+  border-radius: 5px;
+  color: #f9faf8;
+  border: 0;
+  width: 140px;
+  height: 40px;
+  font-weight: bold;
+  font-size: 18px;
 }
 
-.quote-area {
-    background-color: #e5e7eb;
+ul,
+p {
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
-.quote,
-.person {
-    color: #1f2937;
-    font-style: italic;
-    font-size: 36px;
+h2 {
+  color: #f9faf8;
+  font-size: 24px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.layer1Footer {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin-bottom: 150px;
+  margin-top: 100px;
+}
+
+#imagePlaceholder {
+  color: #f9faf8;
+  background-color: #444649;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 300px;
+}
+
+.layer1FooterLeft {
+  width: 600px;
+}
+
+.layer2 {
+  text-align: center;
+  font-family: "RobotoCustom";
+  margin-bottom: 100px;
+}
+
+h3 {
+  margin-bottom: 32px;
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 1000;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.info {
+  width: 210px;
+}
+
+.image {
+  padding: 5px;
+  width: 200px;
+  height: 200px;
+  border: 4px;
+  border-radius: 20px;
+  border-color: #3882f6;
+  border-style: solid;
+}
+
+.layer3 {
+  display: flex;
+  background-color: #e5e7eb;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  font-weight: 200;
+  width: 900px;
+  margin-top: 100px;
+}
+
+.author {
+  font-size: 20px;
+  color: #1f2937;
+  text-align: right;
+  font-weight: 700;
+  float: right;
+  margin-bottom: 100px;
 }
